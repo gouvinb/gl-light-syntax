@@ -1,0 +1,15 @@
+{
+  "name": "gl-light-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A light syntax theme based on google guideline color.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/gouvinb/gl-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
