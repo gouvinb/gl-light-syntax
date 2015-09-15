@@ -1,49 +1,30 @@
-// Config
-@syntax-hue: 220;
-@syntax-saturation: 0%;
-@syntax-brightness: 100%;
-// Base colors
-@syntax-base-accent-color: hsl(@syntax-hue, 100%, 66% );
-@syntax-base-background-color: hsv(@syntax-hue, @syntax-saturation, @syntax-brightness);
-@syntax-base-text-color: @dark-gray;
-@syntax-base-guide-color: fade(@syntax-base-text-color, 40%);
-// Colors: Mix Base16 Atelier Dune with Theme hue
-@syntax-mix-grey: -15%;
-@syntax-mix-color: 15%;
-@syntax-mix-contrast: 10%;
-/**
- * Default colors
- */
-@red: @red_500;
-@pink: @pink_600;
-@purple: @purple_500;
-@dark-purple: @dark_purple_500;
-@indigo: @indigo_500;
-@blue: @blue_500;
-@light-blue: @light_blue_500;
-@cyan: @cyan_500;
-@teal: @teal_500;
-@green: @green_500;
-@light-green: @light_green_500;
-@lime: @lime_500;
-@yellow: @yellow_500;
-@amber: @amber_500;
-@orange: @orange_500;
-@deep-orange: @deep_orange_500;
-@brown: @brown_500;
-// Start full gray
-@very-light-gray: @gray_500;
-@light-gray: @gray_600;
-@gray: @gray_700;
-@dark-gray: @gray_800;
-@very-dark-gray: @gray_900;
-// End full gray
-@blue-gray: @blue_gray_500;
-@black: @black_1000;
-@white: @black_1000;
-/**
- * Google Guideline
- */
+
+// Config ---------------------------------------------------------------------
+@syntax-hue: 0;
+@syntax-saturation: 0;
+@syntax-brightness: 93%;
+
+// Base colors ----------------------------------------------------------------
+@syntax-accent: @indigo_500;
+@syntax-guide: fade(@syntax-fg, 20%);
+@syntax-fg: @mono-1;
+@syntax-bg: @gray_200;
+
+// Monochrome -----------------------------------------------------------------
+@mono-1: @gray_700;
+@mono-2: @gray_600;
+@mono-3: @gray_500;
+
+// Colors ---------------------------------------------------------------------
+@hue-1: @cyan_600; // <-cyan
+@hue-2: @blue_600; // <-blue
+@hue-3: @purple_600; // <-purple
+@hue-4: @green_600; // <-green
+@hue-5: @red_800; // <-red 1
+@hue-5-2: @red_400; // <-red 2
+@hue-6: @orange_800; // <-orange 1
+@hue-6-2: @orange_400; // <-orange 2
+// Google Guideline -----------------------------------------------------------
 @red_50: #fde0dc;
 @red_100: #f9bdbb;
 @red_200: #f69988;
