@@ -2,7 +2,9 @@
 <!-- This is a comment -->
 <e:employees xmlns:e="http://schemas.somewhere.com/employees">
   <employee id="123">
-    <name><![CDATA[John Doe]]></name>
+    <name>
+      <![CDATA[John Doe]]>
+    </name>
     <title lang='en'>King</title>
     <active/>
     <salary>100000</salary>

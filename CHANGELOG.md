@@ -12,3 +12,8 @@
 
 # 2.0.1
 - test : optimize yellow colors (check orange and child's)
+
+# 2.1.0
+- Update color for more visibility
+- Beautify file
+- Add more contrast

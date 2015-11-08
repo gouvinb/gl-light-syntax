@@ -13,63 +13,63 @@ import static java.io.File.*;
 @Awesome("yeah baby!")
 public class Foo<T extends List> extends Bar<T> implements SomeInterface {
 
-  private static final int COUNT = 0x243;
-  private int myCount = 0;
+private static final int COUNT = 0x243;
+private int myCount = 0;
 
-  @Cool(reason="because")
-  public static int staticMethod(String[] values, int n) {
-    try {
-      System.out.print("This is the value:\n" + values[0]);
-    } catch (Exception e) {
-      e.printStackTrace();
-    }
+@Cool(reason="because")
+public static int staticMethod(String[] values, int n) {
+        try {
+                System.out.print("This is the value:\n" + values[0]);
+        } catch (Exception e) {
+                e.printStackTrace();
+        }
 
-    if (n > 0) {
-      return COUNT; // single line comment
-    } else {
-      return -COUNT;
-    }
-  }
+        if (n > 0) {
+                return COUNT; // single line comment
+        } else {
+                return -COUNT;
+        }
+}
 
-  public Foo(int count) {
-    myCount = count;
-  }
+public Foo(int count) {
+        myCount = count;
+}
 
-  /* This is a multiple...
-      ...line comment. */
+/* This is a multiple...
+    ...line comment. */
 
-  public int getMyCount() throws MyFavoriteException {
-    return myCount;
-  }
+public int getMyCount() throws MyFavoriteException {
+        return myCount;
+}
 
-  /**
-   * Increment the count
-   * @param by the amount to increment by
-   * TODO: This a TODO
-   */
-  public void increment(int by) {
-    myCount += by;
-  }
+/**
+ * Increment the count
+ * @param by the amount to increment by
+ * TODO: This a TODO
+ */
+public void increment(int by) {
+        myCount += by;
+}
 
-  public String describe() {
-    switch (myCount) {
-      case 0: return "0";
-      case 1: return "1";
-      default: return "other";
-    }
-  }
+public String describe() {
+        switch (myCount) {
+        case 0: return "0";
+        case 1: return "1";
+        default: return "other";
+        }
+}
 
-  public MyFooInterface createFooBar() {
-    final String test = null;
+public MyFooInterface createFooBar() {
+        final String test = null;
 
-    return new MyFooInterface() {
-      public boolean isValid() {
-        return false;
-      }
-    };
-  }
+        return new MyFooInterface() {
+                       public boolean isValid() {
+                               return false;
+                       }
+        };
+}
 
-  public static interface MyFooInterface {
-    public boolean isValid();
-  }
+public static interface MyFooInterface {
+public boolean isValid();
+}
 }
