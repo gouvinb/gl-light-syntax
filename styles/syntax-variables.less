@@ -1,6 +1,5 @@
 @import "colors";
 
-// Official Syntax Variables --------------------------------------------------
 // General colors
 @syntax-text-color                      : @syntax-fg;
 @syntax-cursor-color                    : @syntax-accent;
@@ -17,9 +16,9 @@
 @syntax-result-marker-color             : @syntax-fg;
 @syntax-result-marker-color-selected    : @syntax-accent;
 
-// Gutter colors --------------------------------------------------------------
-@syntax-gutter-text-color               : darken(@syntax-bg, 36%);
-@syntax-gutter-text-color-selected      : saturate(darken(@syntax-bg, 60%), 20%);
+// Gutter colors -----------------------------------
+@syntax-gutter-text-color               : @syntax-gutter;
+@syntax-gutter-text-color-selected      : @syntax-fg;
 @syntax-gutter-background-color         : @syntax-bg; // unused
 @syntax-gutter-background-color-selected: darken(@syntax-bg, 3%);
 
@@ -43,10 +42,9 @@
 @syntax-color-import                    : @hue-3;
 @syntax-color-snippet                   : @hue-4;
 
-// Custom Syntax Variables ----------------------------------------------------
+// Custom Syntax Variables -----------------------------------
 // Don't use in packages
-@syntax-cursor-line                     : fade(@syntax-accent, 13%); // TODO: needs to be semi-transparent to show serach results
-@syntax-bracket-matcher-background-color: saturate(darken(@syntax-bg, 3%), 60%);
+@syntax-cursor-line                     : fade(@syntax-fg, 4%); // needs to be semi-transparent to show serach results
 @syntax-deprecated-fg                   : darken(@syntax-color-modified, 50%);
 @syntax-deprecated-bg                   : @syntax-color-modified;
 @syntax-illegal-fg                      : white;

@@ -1,6 +1,6 @@
 // Language syntax highlighting
 .comment {
-    color     : @mono-2;
+    color     : @mono-3;
     font-style: italic;
 }
 
@@ -107,7 +107,7 @@
 .punctuation {
     &.definition {
         &.comment {
-            color: @mono-2;
+            color: @mono-3;
         }
 
         &.method-parameters,
@@ -271,16 +271,20 @@
         font-style: italic;
     }
 
-    &.heading .punctuation.definition.heading {
-        color: @hue-2;
+    &.heading {
+        color: @hue-5;
+
+        .punctuation.definition.heading {
+            color: @hue-2;
+        }
+    }
+
+    &.link {
+        color: @hue-3;
     }
 
     &.inserted {
         color: @hue-4;
-    }
-
-    &.list {
-        color: @hue-5;
     }
 
     &.quote {
