@@ -1,5 +1,6 @@
 @import "colors";
 
+// Official Syntax Variables -----------------------------------
 // General colors
 @syntax-text-color                      : @syntax-fg;
 @syntax-cursor-color                    : @syntax-accent;
@@ -23,10 +24,10 @@
 @syntax-gutter-background-color-selected: darken(@syntax-bg, 3%);
 
 // Git colors - For git diff info. i.e. in the gutter
-@syntax-color-renamed                   : @hue-1;
-@syntax-color-added                     : @hue-4;
-@syntax-color-modified                  : @hue-6-2;
-@syntax-color-removed                   : @hue-5-2;
+@syntax-color-renamed                   : hsl(208, 100%, 66%);
+@syntax-color-added                     : hsl(132, 60%, 44%);
+@syntax-color-modified                  : hsl( 40, 90%, 50%);
+@syntax-color-removed                   : hsl( 0, 100%, 54%);
 
 // For language entity colors
 @syntax-color-variable                  : @hue-5;

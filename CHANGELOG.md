@@ -4,6 +4,11 @@
 - [ ] TODO: update ./README.md screenshots
 - [x] TODO: optimize yellow colors (check orange and child's)
 
+## 2.2.0
+- Update base
+- Add Amber and Deep orange (testing)
+- _Beautify code_
+
 ## 2.1.1
 - Update base
 - Adapt base
