@@ -12,7 +12,8 @@ gulp.task("lint", "Runs all lint tasks", ["lint-lesscss"]);
 gulp.task("lint-lesscss", "Lints all LESSCSS sources", () => {
   return gulp.src(lesscssSources)
     .pipe(gulpStylelint({
-      failAfterError: true,
+      // Change after lint
+      failAfterError: false,
       reporters: [
         {formatter: "verbose", console: true}
       ]
