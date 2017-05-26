@@ -1,4 +1,7 @@
 # Gl light syntax
+
+[![Build Status](https://travis-ci.org/gouvinb/gl-light-syntax.svg?branch=master)](https://travis-ci.org/gouvinb/gl-light-syntax)
+
 A light syntax theme based on google guideline color.
 
 ![gl-screen-syntax](https://cloud.githubusercontent.com/assets/5812177/8395850/cfe08de8-1d89-11e5-9747-3f3b35922639.png)
