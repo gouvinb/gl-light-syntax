@@ -12,5 +12,11 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  }
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-help": "1.6.1",
+    "gulp-stylelint": "^3.9.0",
+    "stylelint-config-standard": "^16.0.0"
+  },
 }
