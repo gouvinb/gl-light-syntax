@@ -18,5 +18,5 @@
     "gulp-help": "1.6.1",
     "gulp-stylelint": "^3.9.0",
     "stylelint-config-standard": "^16.0.0"
-  },
+  }
 }
