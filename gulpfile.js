@@ -1,7 +1,6 @@
 "use strict";
 
 const gulp = require("gulp-help")(require("gulp"));
-const eslint = require("gulp-eslint");
 const gulpStylelint = require("gulp-stylelint");
 
 const lesscssSources = ["styles/**/*.less"];
