@@ -11,7 +11,7 @@
   "repository": "https://github.com/gouvinb/gl-light-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   },
   "devDependencies": {
     "gulp": "3.9.1",
