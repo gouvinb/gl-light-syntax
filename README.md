@@ -12,3 +12,7 @@ There is also a matching [UI theme](https://atom.io/themes/one-light-ui).
 
 ## Install
 This theme is installed by default with Atom and can be activated by going to the **Settings > Themes** section and selecting it from the **Syntax Themes** drop-down menu.
+
+## CONTRIBUTOR
+
+- [juliaanvaneijndt](https://github.com/juliaanvaneijndt)
